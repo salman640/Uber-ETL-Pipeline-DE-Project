@@ -11,22 +11,13 @@ The pipeline follows a real-world data workflow: raw data ingestion, transformat
 
 
 ## Technology Used
-Programming
-•	Python
-Used for data ingestion, cleaning, and transformation logic within the pipeline.
-Cloud Platform
-•	Google Cloud Platform (GCP)
-Provides scalable storage, compute, and analytics services for the entire pipeline.
-GCP Services
-•	Google Cloud Storage (GCS)
-Stores raw taxi trip data as immutable source files.
-•	Compute Engine
-Runs the data pipeline and transformation workloads.
-•	BigQuery
-Acts as the analytical data warehouse for structured and optimized querying.
-•	Looker Studio
-Used to build interactive dashboards and visual reports on top of BigQuery tables.
+- Programming Language - Python
 
+Google Cloud Platform
+1. Google Storage
+2. Compute Instance 
+3. BigQuery
+4. Looker Studio
 
 Modern Data Pipeine Tool - https://www.mage.ai/
 
