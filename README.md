@@ -6,17 +6,27 @@
 
 ## Introduction
 
-The goal of this project is to perform data analytics on Uber data using various tools and technologies, including GCP Storage, Python, Compute Instance, Mage Data Pipeline Tool, BigQuery, and Looker Studio.
+This project implements an end-to-end data engineering pipeline for analyzing Uber-style taxi trip data using Google Cloud Platform. The objective is to transform raw trip records into structured, analytics-ready datasets and generate insights through SQL queries and dashboards.
+The pipeline follows a real-world data workflow: raw data ingestion, transformation, storage, and visualization. The focus is on data reliability, scalability, and clear separation between raw and processed data, rather than experimentation or machine learning.
 
 
 ## Technology Used
-- Programming Language - Python
+Programming
+•	Python
+Used for data ingestion, cleaning, and transformation logic within the pipeline.
+Cloud Platform
+•	Google Cloud Platform (GCP)
+Provides scalable storage, compute, and analytics services for the entire pipeline.
+GCP Services
+•	Google Cloud Storage (GCS)
+Stores raw taxi trip data as immutable source files.
+•	Compute Engine
+Runs the data pipeline and transformation workloads.
+•	BigQuery
+Acts as the analytical data warehouse for structured and optimized querying.
+•	Looker Studio
+Used to build interactive dashboards and visual reports on top of BigQuery tables.
 
-Google Cloud Platform
-1. Google Storage
-2. Compute Instance 
-3. BigQuery
-4. Looker Studio
 
 Modern Data Pipeine Tool - https://www.mage.ai/
 
@@ -26,7 +36,6 @@ Modern Data Pipeine Tool - https://www.mage.ai/
 TLC Trip Record Data
 Yellow and green taxi trip records include fields capturing pick-up and drop-off dates/times, pick-up and drop-off locations, trip distances, itemized fares, rate types, payment types, and driver-reported passenger counts. 
 
-Here is the dataset used in the video - https://github.com/darshilparmar/uber-etl-pipeline-data-engineering-project/blob/main/data/uber_data.csv
 
 More info about dataset can be found here:
 1. Website - https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
