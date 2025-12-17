@@ -34,4 +34,4 @@ More info about dataset can be found here:
 
 
    ## Data Model
-<img src="data_model.PNG">
+<img width="1847" height="875" alt="Data_Model" src="https://github.com/user-attachments/assets/160aca36-9587-4fb7-9ea3-8ecd19b0a5bb" />
